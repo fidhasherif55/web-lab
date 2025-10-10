@@ -1,0 +1,84 @@
+<html>
+<head>
+</head>
+<style>
+input[type="submit"]{
+     background-color: green;
+     color:white;
+     }
+     
+     input[type="reset"]{
+          background-color:red;
+          color:white;
+          }
+</style>
+<body>
+<center><h2>REGISTRATION FORM</h2></center>
+<form id="registration">
+<fieldset>
+<legend>user information</legend>
+<label for="Name">Name:</label>
+<select id="name" name="name" required>
+         <option value="">Mr</option>
+         <option value="1">Mr</option>
+         <option value="2">Ms</option>
+       <input type="text" id="Name" name="Name" required>
+       </select>
+         
+       <br>
+       <br>
+<label for="Place">place:</label>
+           <input type="text" id="place" name="place" required>
+           <label for="email">Email:</label>
+           <input type="text" id="email" name="email" required>
+</fieldset>
+<br>
+<label for="address">address:</label>
+           <textarea id="address"name="address" rows+"3"></textarea>
+           <br>
+           <br>
+              <label>Gender:</label>
+           <input type="radio" id="male" name="gender" value="male" required>
+           <label for="male" style="display:inline;">Male</label>
+           
+           <input type="radio" id="female" name="gender" value="female" required>
+           <label for="female" style="display:inline;">female</label>
+           
+           <input type="radio" id="others" name="gender" value="others" required>
+           <label for="others" style="display:inline;">others</label>
+           <br>
+           <br>
+           <label>languages known</label>
+           <input type="checkbox" id="English" name="language" value="English" required>
+           <label for="English" style="display:inline;">English</label>
+           
+           <input type="checkbox" id="Hindi" name="language" value="Hindi" required>
+           <label for="Hindi" style="display:inline;">Hindi</label>
+           
+           <input type="checkbox" id="Tamil" name="language" value="Tamil" required>
+           <label for="Tamil" style="display:inline;">Tamil</label>
+           
+           <input type="checkbox" id="other languages" name=" language" value="other languages" required>
+           <label for="other languages" style="display:inline;">other languages</label>
+           <br>
+           <br>
+           <label for="course">courses:</label>
+           <select id="course" name="course" required>
+           <option value="1">MCA</option>
+           <option value="2">MBA</option> 
+           <option value="3">M-TECH</option> 
+           <option value="4">B-TECH</option> 
+           <option value="5">PHD</option> 
+           </select>
+           <br>
+           <br><br>
+           <center><input type="submit" value="submit"/>
+  <input type="reset" value="cancel"/>
+  </center>
+  
+  </form>
+  </body>
+  </html>
+           
+           
+           
